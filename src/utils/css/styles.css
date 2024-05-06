@@ -79,3 +79,17 @@ body {
   font-weight: 600;
   align-self: center;
 }
+@media only screen and (max-width: 900px) {
+  .button-container {
+    float: none;
+    margin: 5px auto; 
+    display: block; 
+    width: fit-content;
+  }
+  .checkbox-button-pending{
+    float: none;
+    margin: 5px auto; 
+    display: block; 
+    width: fit-content;
+  }
+}
