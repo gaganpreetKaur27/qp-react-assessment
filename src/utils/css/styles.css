@@ -1,0 +1,81 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to top right, palegreen, grey, lightblue);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.todo-container {
+  background: rgb(41, 33, 33);
+  width: 40%;
+  height: 70%;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  border: 3px solid lightblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.task {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.button-container {
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+}
+
+.checkbox-button-pending {
+  cursor: pointer;
+  float: right;
+  border-radius: 3px;
+  padding: 10px 10px;
+  background: #fff;
+  border: 1px solid grey;
+}
+
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type="text"] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
+
+.add-task-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button-style {
+  background: linear-gradient(to top right, palegreen, lightgrey);
+  border: none;
+  color: black;
+  width: 30%;
+  padding: 10px 20px;
+  height: 40%;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  align-self: center;
+}

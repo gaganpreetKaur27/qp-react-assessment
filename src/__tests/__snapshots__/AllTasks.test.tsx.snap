@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllTasks component AllTasks matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="todo-container"
+  >
+    <div
+      class="create-task"
+    >
+      <div
+        class="add-task-container"
+      >
+        <input
+          class="input"
+          placeholder="Add a new task to the list.. :)"
+          type="text"
+          value=""
+        />
+        <button
+          class="add-button-style"
+        >
+          Add Task
+        </button>
+      </div>
+    </div>
+    <div
+      class="header"
+    >
+      Pending Items: (1)
+    </div>
+    <div
+      class="tasks"
+    >
+      <div
+        class="task"
+        style="text-decoration: line-through;"
+      >
+        <span>
+          This is sample completed task
+        </span>
+        <button
+          class="button-container"
+          style="background: red;"
+        >
+          x
+        </button>
+        <button
+          class="button-container"
+        >
+          Completed
+        </button>
+      </div>
+      <div
+        class="task"
+      >
+        <span>
+          This is a pending task
+        </span>
+        <button
+          class="button-container"
+          style="background: red;"
+        >
+          x
+        </button>
+        <button
+          class="checkbox-button-pending"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

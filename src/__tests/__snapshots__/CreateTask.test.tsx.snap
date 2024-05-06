@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateTask component CreateTask matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="add-task-container"
+  >
+    <input
+      class="input"
+      placeholder="Add a new task to the list.. :)"
+      type="text"
+      value=""
+    />
+    <button
+      class="add-button-style"
+    >
+      Add Task
+    </button>
+  </div>
+</DocumentFragment>
+`;
